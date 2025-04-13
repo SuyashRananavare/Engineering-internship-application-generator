@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 # === Configure Gemini API ===
-genai.configure(api_key="")
+genai.configure(api_key="AIzaSyABjjtDkWlJTGYgy5mkagHlDAEhpPTm1JI")
 model = genai.GenerativeModel("models/gemini-1.5-pro-latest")
 
 # === Track Past Applications ===
